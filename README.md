@@ -6,7 +6,7 @@
 
 # Have look and Try it on your own. 
 
-# Download the App now.
-![image](https://drive.google.com/file/d/1h2ieR7FYVU_ItKsB9Mgc7sDnCZWWpbRO/view?usp=sharing)
+# Download the App now - https://drive.google.com/file/d/1h2ieR7FYVU_ItKsB9Mgc7sDnCZWWpbRO/view?usp=sharing
+
 
 
