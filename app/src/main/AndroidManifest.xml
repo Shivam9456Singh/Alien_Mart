@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_COMPANION_APP" />
+    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL"/>
+    <uses-permission android:name="android.permission.ACCEPT_HANDOVER"/>
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.SMS_FINANCIAL_TRANSACTIONS"/>
+    <uses-permission android:name="android.permission.NFC_PREFERRED_PAYMENT_INFO"/>
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="Alien Mart"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WebView"
+        tools:targetApi="31">
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/AppTheme"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".YoutubeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MxPlayerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HotstarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PrimeVideoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NetflixActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MeeshooActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MyntraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AmazonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FlipkartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BharatPayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GPayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PhonePayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PaytmActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UberActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BlinkitActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ZomatoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SwiggyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme"
+            android:exported="false">
+
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/logo"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:scaleType="centerInside"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="Your All in One App for Everything."
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_centerInParent = "true"
+        android:indeterminateTint="@color/white"
+        android:layout_margin="30dp"
+        android:layout_gravity="center" />
+
+    <HorizontalScrollView
+        android:id="@+id/splashScrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                app:srcCompat="@drawable/swiggy" />
+
+            <ImageView
+
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                app:srcCompat="@drawable/zomato" />
+
+            <ImageView
+
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                app:srcCompat="@drawable/gpay" />
+
+            <ImageView
+
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                app:srcCompat="@drawable/blinkit" />
+
+            <ImageView
+
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                app:srcCompat="@drawable/paytm" />
+
+            <ImageView
+                android:id="@+id/btnFlipkart"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                app:srcCompat="@drawable/flipkart" />
+
+            <ImageView
+                android:id="@+id/btnAmazon"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                app:srcCompat="@drawable/amazon" />
+
+            <ImageView
+                android:id="@+id/btnYoutube"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                app:srcCompat="@drawable/youtube" />
+
+            <ImageView
+                android:id="@+id/btnNetflix"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                app:srcCompat="@drawable/netflix" />
+
+            <ImageView
+                android:id="@+id/btnPrimeVideo"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                app:srcCompat="@drawable/prime" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/developer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developed by Shivam"
+        android:textSize="13sp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/skinTone"/>
+</LinearLayout>

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_grad"
+    android:hapticFeedbackEnabled="true"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    // Food Apps
+
+    <TextView
+        android:id="@+id/txtFood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="Food &amp; grocesory Apps"
+        android:textColor="@color/black"
+        android:textAppearance="@color/design_default_color_secondary_variant"
+
+        android:textSize="20dp" />
+
+    <HorizontalScrollView
+        android:id="@+id/scrollViewFood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/btnSwiggy"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:srcCompat="@drawable/swiggy" />
+
+            <ImageView
+                android:id="@+id/btnZomato"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:srcCompat="@drawable/zomato" />
+
+            <ImageView
+                android:id="@+id/btnBlinkit"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:srcCompat="@drawable/blinkit" />
+
+            <ImageView
+                android:id="@+id/btnUberEats"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:srcCompat="@drawable/ubereats" />
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+    <TextView
+        android:id="@+id/txtPayments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="Banking &amp; Payment Apps"
+        android:textColor="@color/black"
+        android:textAppearance="@color/design_default_color_secondary_variant"
+        android:textSize="20dp" />
+
+
+    // Payments Apps
+
+    <HorizontalScrollView
+        android:id="@+id/scrollViewPayments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/btnPaytm"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:srcCompat="@drawable/paytm" />
+
+            <ImageView
+                android:id="@+id/btnPhonePay"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:srcCompat="@drawable/phonepay" />
+
+            <ImageView
+                android:id="@+id/btnGpay"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:srcCompat="@drawable/gpay" />
+
+
+            <ImageView
+                android:id="@+id/btnBharatPay"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:srcCompat="@drawable/bharat" />
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    // Shopping Apps
+
+    <TextView
+        android:id="@+id/txtShopping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="Fashion &amp; Shopping Apps"
+        android:textAppearance="@color/design_default_color_secondary_variant"
+        android:textSize="20dp" />
+
+    <HorizontalScrollView
+        android:id="@+id/scrollViewShopping"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/btnFlipkart"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:srcCompat="@drawable/flipkart" />
+
+            <ImageView
+                android:id="@+id/btnAmazon"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:srcCompat="@drawable/amazon" />
+
+            <ImageView
+                android:id="@+id/btnMyntra"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:srcCompat="@drawable/myntra" />
+
+            <ImageView
+                android:id="@+id/btnMeesho"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:srcCompat="@drawable/meesho" />
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    // Entertainment Apps
+
+    <TextView
+        android:id="@+id/txtEnt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:text="Entertainment &amp; Media Apps"
+        android:textAppearance="@color/design_default_color_secondary_variant"
+        android:textSize="20dp" />
+
+    <HorizontalScrollView
+        android:id="@+id/scrollViewEnt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/btnYoutube"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:srcCompat="@drawable/youtube" />
+
+            <ImageView
+                android:id="@+id/btnNetflix"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:srcCompat="@drawable/netflix" />
+
+            <ImageView
+                android:id="@+id/btnPrimeVideo"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:srcCompat="@drawable/prime" />
+
+            <ImageView
+                android:id="@+id/btnHotstar"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:srcCompat="@drawable/hotstar" />
+
+            <ImageView
+                android:id="@+id/btnMxplayer"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:srcCompat="@drawable/mxplay" />
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+</LinearLayout>
