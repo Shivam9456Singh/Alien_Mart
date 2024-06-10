@@ -1,10 +1,15 @@
 # Alien App - All in One App for ease of use consists Food delivery Apps to Meida & Entertainment Apps. <br><br>
---------------------------------------------------------------------------------------------------------------------------- <br><br>
-![Untitled design (2)](https://github.com/Shivam9456Singh/Alien_Mart/assets/113454708/4c7ccc8e-b8ed-4b99-af31-b5225d25a8cf) <br><br>
 
 ---------------------------------------------------------------------------------------------------------------------------- <br><br>
 
 ![Untitled design (1)](https://github.com/Shivam9456Singh/Alien_Mart/assets/113454708/8e599f09-7e8d-44e9-bed9-1081fea366d9) <br><br>
+
+
+--------------------------------------------------------------------------------------------------------------------------- <br><br>
+
+
+![Untitled design (2)](https://github.com/Shivam9456Singh/Alien_Mart/assets/113454708/4c7ccc8e-b8ed-4b99-af31-b5225d25a8cf) <br><br>
+
 
 ------------------------------------------------------------------------------------------------------------------------------ <br><br>
 
