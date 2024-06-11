@@ -1,4 +1,4 @@
-# Alien App - All in One App for ease of use consists Food delivery Apps to Meida & Entertainment Apps. <br><br>
+# Alien Mart - All in One App for ease of use consists Food delivery Apps to Meida & Entertainment Apps. <br><br>
 
 ---------------------------------------------------------------------------------------------------------------------------- <br><br>
 
