@@ -29,10 +29,9 @@ Media and Entertainment Apps
 
 User Authorization and Registration.<br><br>
 
------------------------------------------------------------------------------------------------------------------------------<br><br>
-
 ![Firebase Database](https://github.com/Shivam9456Singh/Alien_Mart/assets/113454708/94f0d387-a39f-4e7a-ba76-2447b2a91598)<br><br>
 
+---------------------------------------------------------------------------------------------------------------------------------<br><br>
 
 Have look and Try it on your own. 
 
